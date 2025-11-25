@@ -1,3 +1,5 @@
+package tag1;
+
 public class _04_Logische_Operatoren {
     public static void main(String[] args) {
         // Grundlegende logische Operatoren im Shop

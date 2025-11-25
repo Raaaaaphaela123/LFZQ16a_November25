@@ -1,3 +1,5 @@
+package tag1;
+
 public class _01_Strings_Basics {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package tag1;
+
 public class _05_Vergleichs_Operatoren {
 
     public static void main(String[] args) {

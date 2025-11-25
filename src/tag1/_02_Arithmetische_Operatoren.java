@@ -1,3 +1,5 @@
+package tag1;
+
 public class _02_Arithmetische_Operatoren {
     public static void main(String[] args) {
         // Preise von Produkten im Warenkorb

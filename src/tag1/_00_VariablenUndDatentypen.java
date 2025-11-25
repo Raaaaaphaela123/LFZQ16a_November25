@@ -1,3 +1,5 @@
+package tag1;
+
 public class _00_VariablenUndDatentypen {
 	public static void main(String[] args) {
 		// Konstante: Mehrwertsteuer
