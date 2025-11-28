@@ -58,7 +58,15 @@ public class Arrays_Klasse {
         System.out.println("\nErster Unterschied zwischen warenkorb1 und warenkorb3: Index " + unterschied);
         // Gibt -1 zurück, wenn Arrays gleich sind
 
-        // Danach Aufgabe 6
+        // Kopie erstellen
+        int[] warenkorb4 = Arrays.copyOf(warenkorb1, warenkorb1.length);
+        System.out.println(Arrays.toString(warenkorb1));
+
+        // verweist aufs gleiche Objekt, das Original wird auch verändert
+        int[] warenkorb5 = warenkorb1;
+        warenkorb5[0] = 8;
+        System.out.println(Arrays.toString(warenkorb1));
+
     }
 
     // Hilfsmethode zum Ausgeben von Arrays
