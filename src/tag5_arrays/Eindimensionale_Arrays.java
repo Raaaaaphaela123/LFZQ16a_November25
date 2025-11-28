@@ -3,7 +3,7 @@ package tag5_arrays;
 import javax.swing.*;
 
 // GFN Folien: Tag 11_ Packages Imports Arrays
-public class _01_Eindimensionale_Arrays {
+public class Eindimensionale_Arrays {
     // Arrays sind Containerklassen zur Speicherung von Elementen
     // Können primitive Daten oder Referenztypen aufnehmen
     // Elemente müssen im selben Datentyp vorliegen
