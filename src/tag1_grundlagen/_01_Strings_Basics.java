@@ -1,4 +1,4 @@
-package tag1;
+package tag1_grundlagen;
 
 public class _01_Strings_Basics {
 

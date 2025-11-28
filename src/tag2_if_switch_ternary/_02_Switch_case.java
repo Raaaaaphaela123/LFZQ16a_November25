@@ -1,4 +1,4 @@
-package tag2;
+package tag2_if_switch_ternary;
 
 public class _02_Switch_case {
     public static void main(String[] args) {

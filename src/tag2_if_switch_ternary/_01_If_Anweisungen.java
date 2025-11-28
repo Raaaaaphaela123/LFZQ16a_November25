@@ -1,4 +1,4 @@
-package tag2;
+package tag2_if_switch_ternary;
 
 public class _01_If_Anweisungen {
 

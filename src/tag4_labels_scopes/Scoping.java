@@ -1,4 +1,4 @@
-package tag4;
+package tag4_labels_scopes;
 
 public class Scoping {
 

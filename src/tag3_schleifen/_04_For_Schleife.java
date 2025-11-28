@@ -1,6 +1,4 @@
-package tag3;
-
-import java.util.ArrayList;
+package tag3_schleifen;
 
 public class _04_For_Schleife {
     public static void main(String[] args) {

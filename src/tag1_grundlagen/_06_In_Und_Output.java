@@ -1,4 +1,4 @@
-package tag1;
+package tag1_grundlagen;
 
 import javax.swing.*;
 import java.util.Scanner;

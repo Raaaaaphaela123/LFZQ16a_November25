@@ -1,4 +1,4 @@
-package tag1;
+package tag1_grundlagen;
 
 public class _04_Logische_Operatoren {
     public static void main(String[] args) {

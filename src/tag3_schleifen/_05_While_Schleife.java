@@ -1,4 +1,4 @@
-package tag3;
+package tag3_schleifen;
 
 public class _05_While_Schleife {
     public static void main(String[] args) {

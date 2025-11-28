@@ -1,4 +1,4 @@
-package tag2;
+package tag2_if_switch_ternary;
 
 public class _03_Ternaerer_Operator {
     public static void main(String[] args) {
