@@ -20,6 +20,7 @@ public class Eindimensionale_Arrays {
 
     // DANACH AUFGABEN 1-5
     public static void main(String[] args) {
+
         // Deklaration eines Arrays
         String artikel [];
 
