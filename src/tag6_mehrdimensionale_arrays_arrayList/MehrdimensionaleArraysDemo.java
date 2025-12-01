@@ -51,13 +51,29 @@ public class MehrdimensionaleArraysDemo {
         System.out.println("\n Jagged:");
         print2DArray(jagged2DArray);
 
+        // Kopie von mehrdimensionalem Array
+        int[][] originalArray = {{1, 2}, {3, 4}};
+        int[][] kopieArray = new int[originalArray.length][];
+
+        for (int i = 0; i < originalArray.length; i++) {
+            kopieArray[i] = Arrays.copyOf(originalArray[i], originalArray[i].length);
+        }
+
+        kopieArray[0][0] = 10;
+        System.out.println("\n Kopie");
+        print2DArray(kopieArray);
+
+        // Original ist gleich geblieben:
+        System.out.println("\nOriginal:");
+        print2DArray(originalArray);
+
 
         /*-------------------------------------------------------------------------------------------*/
 
         //1. Deklaration eines 3D-Arrays
         int[][][] array3D = new int[3][3][3];
 
-        System.out.println("\n 3D Array");
+        System.out.println("\n3D Array");
         print3DArray(array3D);
 
     }
