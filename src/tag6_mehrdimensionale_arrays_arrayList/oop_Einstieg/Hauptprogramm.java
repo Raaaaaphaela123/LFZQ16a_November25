@@ -4,9 +4,9 @@ public class Hauptprogramm {
     public static void main(String[] args) {
 
         // 1. Erstellen von Objekten (Instanzen)
+        Artikel artikel = new Artikel();
 
         // 2. Zugriff auf Attribute und Methoden
-        Artikel artikel = new Artikel();
         artikel.name = "ASUS Laptop";
         artikel.preis = 799.99;
         artikel.lagerbestand = 10;
