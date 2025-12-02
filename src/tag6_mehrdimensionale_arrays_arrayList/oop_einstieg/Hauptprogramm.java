@@ -1,4 +1,4 @@
-package tag6_mehrdimensionale_arrays_arrayList.oop_Einstieg;
+package tag6_mehrdimensionale_arrays_arrayList.oop_einstieg;
 
 public class Hauptprogramm {
     public static void main(String[] args) {
@@ -14,7 +14,15 @@ public class Hauptprogramm {
         artikel.anzeigen();
 
         double gesamtPreis = artikel.berechnePreis(2);
-
         System.out.println("Gesamtpreis: " + gesamtPreis);
+
+        // Füge Lieferant hinzu
+        Lieferant laptopLieferant = new Lieferant();
+        laptopLieferant.name = "Lieferant X";
+
+        artikel.fuegeLieferantHinzu(laptopLieferant);
+
+        System.out.println("Lieferant für Artikel: " + artikel.lieferant.name);
+
     }
 }

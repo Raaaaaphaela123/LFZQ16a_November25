@@ -1,10 +1,11 @@
-package tag6_mehrdimensionale_arrays_arrayList.oop_Einstieg;
+package tag6_mehrdimensionale_arrays_arrayList.oop_einstieg;
 
 public class Artikel {
     // Attribute (Eigenschaften eines Artikels)
     String name;
     double preis;
     int lagerbestand;
+    Lieferant lieferant;
 
     // Konstruktoren -> kommen morgen!
 
@@ -15,7 +16,11 @@ public class Artikel {
 
     // Methode zur Berechnung des Gesamtpreises bei gegebener Stückzahl
     double berechnePreis(int menge) {
-        return preis * menge;
+        return this.preis * menge;
+    }
+
+    void fuegeLieferantHinzu(Lieferant lieferant) {
+        this.lieferant = lieferant;
     }
 
 }
