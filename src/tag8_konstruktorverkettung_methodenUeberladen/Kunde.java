@@ -2,10 +2,9 @@ package tag8_konstruktorverkettung_methodenUeberladen;
 
 public class Kunde {
     // Instanzattribute
-    private String vorname = "Unbekannt";
-    public String nachname = "Unbekannt";
-    private double guthaben = 0;
-    private int alter;
+    private String vorname;
+    public String nachname;
+    private double guthaben;
 
     /* Konstruktorverkettung */
     // Standardkonstruktor (ohne Parameter)
