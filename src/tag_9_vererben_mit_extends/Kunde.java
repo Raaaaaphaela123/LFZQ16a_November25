@@ -1,4 +1,4 @@
-package tag10_vererbung_mit_extends;
+package tag_9_vererben_mit_extends;
 
 public class Kunde {
     // Instanzattribute
