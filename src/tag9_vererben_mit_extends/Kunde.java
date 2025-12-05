@@ -1,4 +1,4 @@
-package tag_9_vererben_mit_extends;
+package tag9_vererben_mit_extends;
 
 public class Kunde {
     // Instanzattribute
@@ -8,6 +8,12 @@ public class Kunde {
 
     // statisches Attribut, das an die Klasse gebunden ist, es muss kein Objekt erzeugt werden
     private static int kundenZaehler = 0;
+
+
+
+    public Kunde() {
+
+    }
 
     // Konstruktor mit 3 Parametern (Endpunkt der Verkettung)
     public Kunde(String vorname, String nachname, double guthaben) {
@@ -22,6 +28,10 @@ public class Kunde {
     @Override
     public String toString() {
         return "Vorname: " + vorname + ", Nachname: " + nachname + ", Guthaben: " + guthaben;
+    }
+
+    public String sagHallo() {
+        return "Hiiiiii";
     }
 
     // Getter und Setter
