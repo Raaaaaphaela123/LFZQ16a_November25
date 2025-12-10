@@ -1,4 +1,4 @@
-package woche3._12_tag_exceptions;
+package woche3._12_tag_exceptions.beispiel1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
